@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.13.2 on win32)" generated="2025-07-09T10:26:17.426545" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Sample" source="C:\Users\fb744\Downloads\robot_tests_project\test_sample.robot">
+<test id="s1-t1" name="Passing Test" line="5">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-07-09T10:26:17.478204" level="INFO">This test will pass</msg>
+<arg>This test will pass</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-07-09T10:26:17.477802" elapsed="0.000480"/>
+</kw>
+<status status="PASS" start="2025-07-09T10:26:17.476828" elapsed="0.001912"/>
+</test>
+<test id="s1-t2" name="Failing Test" line="8">
+<kw name="Fail" owner="BuiltIn">
+<msg time="2025-07-09T10:26:17.479565" level="FAIL">This test is intentionally failed</msg>
+<arg>This test is intentionally failed</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="FAIL" start="2025-07-09T10:26:17.479367" elapsed="0.000325">This test is intentionally failed</status>
+</kw>
+<status status="FAIL" start="2025-07-09T10:26:17.479083" elapsed="0.000793">This test is intentionally failed</status>
+</test>
+<status status="FAIL" start="2025-07-09T10:26:17.427983" elapsed="0.052291"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test Sample" id="s1" pass="1" fail="1" skip="0">Test Sample</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
